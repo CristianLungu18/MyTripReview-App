@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #2f3f43;
+}
+.navbar {
+  height: 60px;
+  background-color: #2f3f43;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+.list-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.list-item a {
+  text-decoration: none;
+  color: white;
+}
+.trips-title {
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+.trips-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trip-card {
+  border: 1px solid;
+  width: 450px;
+  height: 550px;
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #2f3f43;
+  box-shadow: 1px 1px 20px 10px #2f3f43;
+}
+.trip-card h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.trip-card h5 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  color: white;
+}
+.img-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.card-img {
+  width: 400px;
+  border-radius: 20px;
+}
+.description {
+  text-align: center;
+  color: white;
+}
+.data-box {
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+}
+.data-box p {
+  color: white;
+  font-size: 20px;
+}
+.description {
+  font-style: italic;
+  margin-top: 5px;
+}

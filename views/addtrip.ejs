@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs')%>
+    <title>Add-Trip</title>
+    <link rel="stylesheet" href="/css/addTrip.css" />
+  </head>
+  <body>
+    <%- include('./partials/nav.ejs')%>
+    <section class="form-box">
+      <div class="form-container">
+        <div class="title">Add Your Trip</div>
+        <form action="/trips/add" method="POST" enctype="multipart/form-data" class="form-trip">
+          <div class="name-box">Name </div>
+          <input id="name" name="userName" type="text" placeholder="Ex: John Doe" />
+          <div class="email-box">Email</div>
+          <input id="email" name="email" type="email" placeholder="Ex: johndoe@gmail.com" />
+          <div class="country-box">Country</div>
+          <input id="country" name="country" type="text" placeholder="Ex: Romania" />
+          <div class="city-box">City</div>
+          <input id="city" name="city" type="text" placeholder="Ex: Bucharest" />
+          <div class="price-box">Price($)</div>
+          <input id="price" name="price" type="text" placeholder="Ex: 3000"/> 
+          <div class="review-box">Review(Max. 50 characters)</div>
+          <input id="review" name="review" type="text" placeholder="Ex:A good place!" />  
+          <div class="rating-box">Rating(1-10)</div>
+          <input id="rating" name="rating" type="text" placeholder="Ex: 9" />
+          <div class="photo-box">Image</div>
+          <input id="photo" name="image" type="file"/>
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

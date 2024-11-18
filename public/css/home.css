@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  height: 60px;
+  background-color: #2f3f43;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+.list-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.list-item a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-image: url("../dev-data/road-trip.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero-box {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text h1 {
+  color: #feffff;
+  font-size: 70px;
+  width: 670px;
+  text-align: center;
+  font-weight: 700;
+}
+.hero-text h6 {
+  color: white;
+  font-size: 30px;
+  width: 670px;
+  text-align: center;
+  font-style: italic;
+}
+.btn-box {
+  text-align: center;
+  margin-top: 50px;
+}
+.trip-btn {
+  padding: 20px 80px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  background-color: #506b72;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.trip-btn:hover {
+  background-color: #13181a;
+}

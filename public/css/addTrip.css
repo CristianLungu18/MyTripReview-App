@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  height: 60px;
+  background-color: #2f3f43;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+.list-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.list-item a {
+  text-decoration: none;
+  color: white;
+}
+.form-box {
+  height: 885px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  border: 1px solid;
+  width: 550px;
+  height: 800px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #2f3f43;
+}
+.form-trip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.name-box,
+.email-box,
+.country-box,
+.city-box,
+.price-box,
+.review-box,
+.rating-box,
+.photo-box {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#name,
+#email,
+#country,
+#city,
+#price,
+#review,
+#rating,
+#photo {
+  padding: 10px 80px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  color: #2f3f43;
+  width: 450px;
+}
+.submit-btn {
+  padding: 10px 220px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: #2f3f43;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.submit-btn:hover {
+  background-color: black;
+}
+body {
+  background-image: url("../dev-data/road-trip.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#photo {
+  background-color: white;
+  text-align: center;
+  padding-left: 120px;
+}
